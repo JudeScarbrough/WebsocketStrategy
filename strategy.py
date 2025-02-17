@@ -49,6 +49,8 @@ strategy_state = "trash"
 
 def push_price_update(price):
 
+    print(f"price to strategy: {price}")
+
     global prices
     global strategy_state
     global MA5
